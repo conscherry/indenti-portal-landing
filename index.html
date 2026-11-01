@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indenti.net — Project Update</title>
+  <link rel="icon" type="image/png" href="./indenti-logo-neutral.png" />
+  <meta name="description"
+    content="Indenti.net is not available yet. Follow progress and announcements to know when development resumes." />
+  <style>
+    :root {
+      --bg: #0f1324;
+      --text: #f1f3ff;
+      --muted: #bdc4e6;
+      --line: #2b3150;
+      --link: #9da9ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 72px 24px 48px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand {
+      margin-bottom: 22px;
+    }
+
+    .brand img {
+      display: block;
+      height: auto;
+    }
+
+    .brand .logo {
+      width: min(220px, 52vw);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 3.4vw, 3rem);
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+      max-width: 14ch;
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.7;
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 60ch;
+    }
+
+    .kicker {
+      margin-bottom: 18px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #a5aed8;
+    }
+
+    .intro {
+      margin-top: 18px;
+    }
+
+    .links {
+      margin-top: 34px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .links a {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      text-decoration: none;
+      color: var(--text);
+      padding: 14px 0;
+      border-top: 1px solid var(--line);
+      font-weight: 500;
+    }
+
+    .links a:first-child {
+      border-top: 0;
+    }
+
+    .links span {
+      color: var(--link);
+      font-size: 0.95rem;
+    }
+
+    .footer {
+      margin-top: auto;
+      padding-top: 26px;
+      font-size: 0.9rem;
+      color: #9da5cc;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding-top: 56px;
+      }
+
+      .links a {
+        flex-direction: column;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <a class="brand" href="https://indenti.net" aria-label="Indenti homepage">
+      <picture>
+        <source srcset="./indenti-text-light-neutral.png" media="(prefers-color-scheme: dark)" />
+        <img class="logo" src="./indenti-text-dark-neutral.png" alt="Indenti" />
+      </picture>
+    </a>
+    <div class="kicker">Project update</div>
+    <h1>Indenti.net is not available yet.</h1>
+    <p class="intro">
+      Indenti is currently paused and not open for access. Development updates
+      and future announcements will be shared through Conscherry channels.
+    </p>
+
+    <div class="links" aria-label="Follow updates">
+      <a href="https://conscherry.com/newspaper" target="_blank" rel="noopener noreferrer">
+        Follow updates in Newspaper
+        <span>conscherry.com/newspaper</span>
+      </a>
+      <a href="https://conscherry.com/discord" target="_blank" rel="noopener noreferrer">
+        Join the community on Discord
+        <span>conscherry.com/discord</span>
+      </a>
+      <a href="https://conscherry.com/projects/indenti" target="_blank" rel="noopener noreferrer">
+        View current project status
+        <span>conscherry.com/projects/indenti</span>
+      </a>
+    </div>
+
+    <div class="footer">Last updated: November 2026</div>
+  </main>
+</body>
+
+</html>

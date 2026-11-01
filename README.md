@@ -1,1 +1,3 @@
-# indenti-portal-landing
+# indenti-landing
+
+Temporary landing page for Indenti.net.
